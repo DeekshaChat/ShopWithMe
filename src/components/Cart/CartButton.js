@@ -12,7 +12,7 @@ const CartButton = (props) => {
   return (
     <button className={classes.button} onClick={cartHandler}>
       <span>My Cart</span>
-      <span className={classes.badge}>{product.length}</span>
+      <span className={classes.badge}>{product?.length}</span>
     </button>
   );
 };
